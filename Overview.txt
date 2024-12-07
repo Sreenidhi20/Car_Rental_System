@@ -1,0 +1,58 @@
+--Car Rental System--
+
+Features:
+	.Rent a car
+	.Get Confirmation Slip
+	.Using java OOPS only
+	.Database NOT USING
+	.Using ArrayList (once the last position is reached - it will increase the size by doubling it)
+	.That's why we are using ArrayList not Arrays
+
+4 classes
+	.CAR
+	.Customer
+	.Rental
+	.CarRentalSystem(Main class is inside this)
+
+class 1 (Car)
+	.CarId - 001
+	.Model - Thar
+	.Car Brand - Mahindra
+	.Base Price(Day fee) - 1500rs
+	.Variable isAvailable - True/False
+-Encapsulation
+-Private variable
+-Getters and setters
+	
+
+class 2 (Customer)
+	.Customer_name
+	.Customer_id
+	.Customer_AadhaarCardNumber
+-Encapsulation
+-Private variable
+-Getters and setters
+
+
+Class 3 (Rental)
+	.Car object
+	.Customer object
+	.days
+-Constructor of Rental using all 3 above
+	
+
+class 4 (CarRentalSystem)
+	.ArrayList[car1,car2,car3,.........,carn]
+	.List-car
+	.List-customer
+	.List-rental
+	
+	
+
+
+
+
+
+
+
+
